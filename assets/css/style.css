@@ -4,108 +4,56 @@ html{
 }
 
 body{
-    font-family: 'Arial', 'Helvetica Neue', sans-serif;
-    color: #777777;
     background-image: url("../images/concrete.png");
-    padding-bottom: 3%;
-}
-
-header{
-    background-color: white;
-    border-bottom: solid 1px #cccccc;
-    margin-bottom: 3%;
-}
-
-.row{
-    margin-right: 0;
-}
-
-.nav-name{
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-size: 190%;
-    margin-bottom: 0;
-    text-align: center;
-    padding: 3%;
-}
-
-a{
-    text-decoration: none;
-}
-
-h2,h3{
-    color: #4aaaa5;
-}
-
-.navigation{
-    color: #777777;
-    padding-top: 2%;
-    text-align: center;
-}
-
-li{
-    display: inline-block;
-    padding: 5px;
+    padding-bottom: 7%;
 }
 
 .main-content{
     background-color: #ffffff;
-    border: solid 1px #d3d3d3;
-    margin-bottom: 5%;
+    border: 1px solid #d3d3d3;
+    padding: 2%;
+    margin-top: 2%;
 }
 
-.connect{
-    background-color: #ffffff;
-    border: solid 1px #d3d3d3;
-    margin-bottom: 10%;
+.navigation{
+    margin-top: 2%;
+    margin-bottom: 7%;
 }
 
-.conn-img {
+.conn-img:hover{
+    border: 1px solid #664AC1;
+    padding: .5%;
+    text-decoration: none;
+}
+
+.conn-img{
     width: 30%;
     height: auto;
-    margin: 0 1% 5% 1%;
+    margin: 1%;
 }
+
 #mypic{
-    width: 100%;
-    height: auto;
+    width: 40%;
+    height:auto;
+    float: left;
+    margin: 2%;
 }
 
-/* Contact Page */
-form{
-    padding: 2%;
+p.about-text{
+    font-size: 18px;
+    margin: 2%;
 }
 
-input, textarea{
-    border:1px solid #dddddd;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 97%;
-    padding: 5px;
-}
-
-textarea{
-    resize: none;
-    height: 15em;
-}
-
-button{
-    background-color: #4aaaa5;
-    border: none;
-    padding: 9px 27px;
-    color: #ffffff;
-}
-
-/*  Portfolio Page */
 .imagediv{
     position: relative;
-    display: inline-block;
     width: 45%;
+    display: inline-block;
     margin: 2%;
 }
 
 .port-image{
-    width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .imagediv:hover{
@@ -113,30 +61,32 @@ button{
 }
 
 .imagediv:hover .labelbox{
+    font-size: xx-large;
+    padding-top: .25em;
+    height: 25%;
     background-color: #664AC1;
 }
 
 .labelbox{
     position: absolute;
-    width: 100%;
     height: 25%;
-    top: 60%;
+    width: 100%;
+    top: 50%;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-top: .15em;
-    font-size: xx-large;
+    padding-top: .5em;
+    font-size: x-large;
 }
 
-.footer{
-    border-top: 6px solid #4aaaa5;
-    background-color: #666666;
-    color: #ffffff;
-    text-align: center;
-    padding-top: .5em;
-    height: 55px;
-    line-height: 3em;
+footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 60px;
+    background-color: #C8D7E3;
+    color: #2F4E6F;
+    text-align: center;
+    padding-top: 1em;
+;
 }
