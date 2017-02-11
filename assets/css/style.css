@@ -1,92 +1,120 @@
-html{
-    position: relative;
+html, body{
+    height: 100%;
+}
+
+.wrap{
     min-height: 100%;
 }
 
 body{
-    background-image: url("../images/concrete.png");
+    background-image: url("../images/graphy.png");
     padding-bottom: 7%;
+    color: #333333;
 }
 
-.main-content{
-    background-color: #ffffff;
-    border: 1px solid #d3d3d3;
-    padding: 2%;
-    margin-top: 2%;
+.navbar{
+    background-color: transparent;
 }
 
-.navigation{
-    margin-top: 2%;
-    margin-bottom: 7%;
+#nav-name{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #664AC1;
+    margin-left: 0;
+    margin-top: 5%;
 }
 
-.conn-img:hover{
-    border: 1px solid #664AC1;
-    padding: .5%;
-    text-decoration: none;
+.navlinks{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: #664AC1;
+}
+
+.conn-links{
+    margin-top: 3%;
+    display: flex;
+    justify-content:center;
+    overflow: auto;
+    padding-bottom: 64px;
 }
 
 .conn-img{
-    width: 30%;
-    height: auto;
-    margin: 1%;
+    width: 60px;
+    height:auto;
+}
+
+.main-content{
+    background-color: transparent;
+    border: 1px solid #333333;
+    padding: 2%;
+    margin-top: 2%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    text-align: left;
 }
 
 #mypic{
     width: 40%;
     height:auto;
     float: left;
-    margin: 2%;
+    padding: 1%;
+    margin: 2% 2% 2% 0%;
+    border: 2px solid #333333;
+}
+
+.form-group{
+    text-align: left;
 }
 
 p.about-text{
-    font-size: 18px;
-    margin: 2%;
+    margin: 3%;
+    text-align: left;
+}
+
+.btn-primary{
+    background-color: transparent;
+    color: #333333;
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+    border: 1px solid #333333;
 }
 
 .imagediv{
-    position: relative;
-    width: 45%;
     display: inline-block;
-    margin: 2%;
+    float: none;
+    width: auto;
+    padding: 3%;
+    max-width:100%;
+    margin: auto;
+    text-align: left;
 }
 
-.port-image{
-    height: auto;
-    width: 100%;
-}
-
-.imagediv:hover{
+.imagediv:hover .port-image{
     opacity: .5;
 }
 
-.imagediv:hover .labelbox{
-    font-size: xx-large;
-    padding-top: .25em;
-    height: 25%;
-    background-color: #664AC1;
-}
-
-.labelbox{
-    position: absolute;
-    height: 25%;
+.port-image{
+    border: 1px solid #333333;
     width: 100%;
-    top: 50%;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding-top: .5em;
-    font-size: x-large;
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: -64px;
+    clear: both;
     width: 100%;
     height: 60px;
     background-color: #C8D7E3;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
     color: #2F4E6F;
     text-align: center;
-    padding-top: 1em;
-;
+    padding-top: .6em;
 }

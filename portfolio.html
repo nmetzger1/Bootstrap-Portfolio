@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Portfolio of Nicholas Metzger</title>
@@ -22,10 +22,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Nicholas Metzger</a>
+                <a class="navbar-brand" id="nav-name" href="#">Nicholas Metzger</a>
             </div>
             <div class="collapse navbar-collapse" id="nav-collapsed">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right navlinks">
                     <li><a href="index.html">About Me</a> </li>
                     <li class="active"><a href="portfolio.html">Portfolio</a> </li>
                     <li><a href="contact.html">Contact</a> </li>
@@ -34,70 +34,62 @@
         </div>
     </nav>
 </header>
-<div class="container">
+<div class="container-fluid wrap">
     <div class="row">
-        <div class="col-md-8 col-sm-12  main-content">
+        <div class="col-md-8 col-md-offset-2 col-sm-12  main-content">
             <h2>Portfolio</h2>
-            <hr>
             <br>
-            <div class="imagediv">
-                <a href="hangman.html" target="_blank">
-                    <img class="port-image" src="assets/images/hangman.png" alt="hangman game">
-                    <p class="labelbox">Hangman</p>
+            <div class="imagediv col-md-6 col-sm-12">
+                <a href="https://sheltered-bastion-50696.herokuapp.com/" target="_blank">
+                    <img class="port-image" src="assets/images/website1.png" alt="My First Site!">
+                    <p class="labelbox">My first website</p>
                 </a>
             </div>
-            <div class="imagediv">
-                <a href="rpg.html" target="_blank">
-                    <img class="port-image" src="assets/images/rpg.png" alt="rpg">
-                    <p class="labelbox">RPG Game</p>
-                </a>
-            </div>
-
-
-            <div class="imagediv">
-                <a href="trivia.html" target="_blank">
-                    <img class="port-image" src="assets/images/trivia.png" alt="trivia">
-                    <p class="labelbox">Trivia Game</p>
-                </a>
-            </div>
-            <div class="imagediv">
-                <a href="info.html" target="_blank">
-                    <img class="port-image" src="assets/images/info.png" alt="info widget">
-                    <p class="labelbox">Rutgers Info Widget</p>
-                </a>
-            </div>
-            <div class="imagediv">
+            <div class="imagediv col-md-6 col-sm-12">
                 <a href="rock.html" target="_blank">
-                    <img class="port-image" src="assets/images/rock.png" alt="rock paper scissors">
+                    <img class="port-image" src="assets/images/placholder1.png" alt="rock paper scissors">
                     <p class="labelbox">Rock Paper Scissors</p>
                 </a>
             </div>
-        </div>
-        <div class="col-md-3 col-md-offset-1 col-sm-12 navigation">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Contact Me</h3>
-                </div>
-                <div class="panel-body">
-                    <a href="https://github.com/nmetzger1" target="_blank">
-                        <img class="conn-img" src="assets/images/github.png" alt="Find Me on GitHub">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img class="conn-img" src="assets/images/linkedin.png" alt="Find Me on LinkedIn">
-                    </a>
-                    <a href="http://stackoverflow.com/users/6162696/n-metzger" target="_blank">
-                        <img class="conn-img" src="assets/images/stackoverflow.png" alt="Find Me on StackOverFlow">
-                    </a>
-                </div>
+            <div class="imagediv col-md-6 col-sm-12">
+                <a href="trivia.html" target="_blank">
+                    <img class="port-image" src="assets/images/placholder1.png" alt="trivia">
+                    <p class="labelbox">Hangman Game</p>
+                </a>
+            </div>
+            <div class="imagediv col-md-6 col-sm-12">
+                <a href="info.html" target="_blank">
+                    <img class="port-image" src="assets/images/placholder1.png" alt="info widget">
+                    <p class="labelbox">Coming Soon</p>
+                </a>
+            </div>
+            <div class="imagediv col-md-6 col-sm-12">
+                <a href="rpg.html" target="_blank">
+                    <img class="port-image" src="assets/images/placholder1.png" alt="rpg">
+                    <p class="labelbox">Coming Soon</p>
+                </a>
             </div>
         </div>
     </div>
+    <div class="row connect">
+        <div class="col-sm-12 conn-links">
+            <a href="https://github.com/nmetzger1" target="_blank">
+                <img class="conn-img" src="assets/images/github1.png" alt="Find Me on GitHub">
+            </a>
+            <a href="#" target="_blank">
+                <img class="conn-img" src="assets/images/twitter.png" alt="Find Me on Twitter">
+            </a>
+            <a href="http://stackoverflow.com/users/6162696/n-metzger" target="_blank">
+                <img class="conn-img" src="assets/images/stackoverflow1.png" alt="Find Me on StackOverFlow">
+            </a>
+        </div>
+    </div>
 </div>
+</body>
 <footer class="footer">
     <div class="container">
         © Copyright 2017 Nicholas Metzger
     </div>
 </footer>
-</body>
 
 </html>
